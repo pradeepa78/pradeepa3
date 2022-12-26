@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section1">
+        <div class="container">
+          <h1 id="TitleName" >
+            FRIENDS BOOK
+          </h1><br><br>
+          <form id="yourName">
+            <label for="name" id="yourName" >Your Name</label>
+            <input type="text" id="textBox"><br><br>
+            <label for="message" id="field1">
+              1.A message for me!
+            </label><br>
+                <textarea class ="textBox" id="textBox1" cols="35" rows="7"></textarea><br><br>
+                <label for="nickname">2. A nick name for me?</label><br>
+                  <textarea class ="textBox" id="textBox2" cols="35" rows="7"></textarea><br><br>
+                  <label for="lie" id="yesMayBe">Have you ever lied to me?</label><br><br>
+                  <input type="radio" id="lie" name="lie" value="yes">yes
+                  <input type="radio" id="lie" name="lie" value="May be">Maybe<br><br>
+                  <label for="feeling" >How do you feel when you talk to me?</label><br><br>
+                  <input type="radio" id="feeling" name="feeling" value="Happy">Happy
+                  <input type="radio" id="feeling" name="feeling" value="Irritated">Irritated<br><br>
+                  <label for="trip" >Do you like to go on a road trip with me?</label><br><br>
+                  <input type="radio" id="trip" name="trip" value="yes">yes
+                  <input type="radio" id="trip" name="trip" value="No">No<br><br>
+                  <label for="color" id="bestColour">Best color that suits me?</label><br><br>
+                  <input type="checkbox" id="color" name="red">
+                  <label for="color">Red </label>
+                  <input type="checkbox" id="bestColour" name="black">
+                  <label for="color">Black </label>
+                  <input type="checkbox" id="bestColour" name="white">
+                  <label for="color">White </label>
+                  <input type="checkbox" id="bestColour" name="blue">
+                  <label for="color">Blue </label>
+                  <input type="checkbox" id="bestColour" name="green">
+                  <label for="color">Green </label><br><br>
+                  <label for="best">The best moment in your friendship?</label><br>
+                  <textarea class ="textBox" id="textBox3" cols="35" rows="7"></textarea><br><br>
+          </form>
+        </div>
+        <img src="photography.jpg" id="backgroundImage">
+      </section> 
+</body>
+</html>
